@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T15:06:46.024Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="uUiByMw6jHzYeWhpDPW2" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T15:12:07.052Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="f2OOawk8a-cbi98vcHXW" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1185" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,11 +110,11 @@
         <mxCell id="n0gfTQVw-aHXXpMBViYb-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="288" y="680" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n0gfTQVw-aHXXpMBViYb-29" value="lost port lat/lan: show error" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="312" y="685" width="180" height="20" as="geometry" />
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-29" value="有 podATA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="312" y="685" width="68" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="n0gfTQVw-aHXXpMBViYb-30" value="normal" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="312" y="725" width="100" height="20" as="geometry" />
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-30" value="无 podATA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="312" y="725" width="68" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="288" y="811.25" width="10" height="70" as="geometry" />
@@ -148,6 +148,9 @@
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-44" value="unActiveStyle 灰色实线&lt;br&gt;actualStyle 蓝色实线&lt;br&gt;planStyle 蓝色虚线&lt;br&gt;unplanStyle 灰色虚线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="44" width="216" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-45" value="有 ais：track.length &amp;gt; 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="56" y="555" width="134" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
