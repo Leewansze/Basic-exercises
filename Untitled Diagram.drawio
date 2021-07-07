@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T15:38:26.834Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="1sO0GRN6bAAmNOTL4nqT" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T15:40:40.595Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="xNtGOM-324br3a58W_Tj" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="981" dy="1695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,25 +123,22 @@
           <mxGeometry x="288" y="770" width="10" height="111.25" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-33" value="有 AIS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="188" y="235" width="70" height="20" as="geometry" />
+          <mxGeometry x="190" y="220" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-34" value="无 AIS" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="188" y="366.25" width="70" height="20" as="geometry" />
+          <mxGeometry x="190" y="350" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="210" width="10" height="70" as="geometry" />
+          <mxGeometry x="262" y="195" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-36" value="lost port lat/lan: show error" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="292" y="215" width="180" height="20" as="geometry" />
+          <mxGeometry x="286" y="200" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-37" value="normal" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="292" y="255" width="100" height="20" as="geometry" />
+          <mxGeometry x="286" y="240" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="341.25" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="n0gfTQVw-aHXXpMBViYb-39" value="leg.pol.portcode == leg.pod.portcode || &lt;br&gt;svvd == null || &lt;br&gt;vesselName/voyagenumber == null" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="292" y="341.25" width="246" height="62.5" as="geometry" />
+          <mxGeometry x="262" y="325" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-40" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="215" width="20" height="162.5" as="geometry" />
@@ -225,6 +222,12 @@
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-75" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="392" y="615" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-78" value="有 podATA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="325" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-79" value="无 podATA" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="292" y="370" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
