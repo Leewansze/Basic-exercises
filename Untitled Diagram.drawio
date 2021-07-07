@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T02:21:10.674Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="jiWOdUxZZUa56L-I-8XT" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T14:29:55.406Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="PIhayVJFa2TdhOHjkkM0" version="14.8.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,14 +56,35 @@
             <mxPoint x="290" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="n0gfTQVw-aHXXpMBViYb-5" target="n0gfTQVw-aHXXpMBViYb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-5" value="CargoTrackItem" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="340" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="n0gfTQVw-aHXXpMBViYb-6" value="Get the routeSeqNumber to display the route title &amp;amp; 20GP * 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="220" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="n0gfTQVw-aHXXpMBViYb-8" value="Get each route&#39;s legInfos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="320" width="120" height="70" as="geometry" />
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-8" value="handle each route&#39;s legInfos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="325" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-10" value="提取legs中最大有效值 （通过判断是否存在实际离港/到港/track 轨迹）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="325" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-11" value="判断是否是&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="410" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-12" value="legs" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="540" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-13" value="container" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="670" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-14" value="port" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="780" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n0gfTQVw-aHXXpMBViYb-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="600" width="20" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
